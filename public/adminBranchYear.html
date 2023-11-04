@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/adminby.css">
+    <title>ADMINBRANCHYEAR</title>
+</head>
+
+<body>
+    <div class="page">
+        <div class="navbar">
+            <div class="menubar" id="menubar">
+                <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div>
+            </div>
+            <div class="profile" id="profile">
+                <div class="item">Profile</div>
+                <div class="item " id="cleardb">ClearDB</div>
+                <div class="item">SignOut</div>
+            </div>
+        </div>
+        <div class="error" id="errMsg"></div>
+        <div class="content">
+            <div class="form">
+                <form id="adminbyForm">
+                    <label for="BranchName">BranchName</label>
+                    <select id="branchName">
+                    </select>
+                    <label for="Year">Year</label>
+                    <select id="year">
+                    </select>
+                    <input type="submit" value="select" class="loginbtn">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/adminBY.js"></script>
+    <script src="./scripts/adminmenu.js"></script>
+</body>
+
+</html>

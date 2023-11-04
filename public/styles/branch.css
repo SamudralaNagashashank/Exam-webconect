@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.page
+{
+    background-color: rgb(88, 197, 252);
+    height: 100vh;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.backbtn
+{
+    padding: 20px;
+}
+
+.backbtn button
+{
+    border: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.year
+{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3em;
+    border-radius: 20px;
+}
+
+.details
+{
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    gap :10px;
+    padding: 30px 20px;
+    font-size: 1.3em;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+
+.header
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+.value
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+    color: rgb(0, 81, 255);
+}
+
+
+.subHeader
+{
+    display: flex;
+    gap:20px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(120, 192, 255);
+    border-radius: 20px;
+    font-size: 1.4em;
+    font-family: 'Ubuntu', sans-serif;
+    flex-wrap: wrap; 
+    flex: 3;
+    margin: 10px 0px;
+}
+
+.rollNo ,.hall
+{
+    background-color: aqua;
+    padding:10px 20px; 
+    border-radius: 20px;  
+    margin: 0px 2px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.ele .rollNo
+{
+    flex: 2;
+    
+}
+
+.hall{
+    flex:1;
+}
+
+.heading
+{
+    color:blue;
+    text-transform: uppercase;
+}
+
+.values
+{
+    padding: 10px 0px;
+}
+
+
+.new
+{
+    display: flex;
+    gap:10px;
+    margin: 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.ele
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/adminlogin.css">
+    <link rel="stylesheet" href="./styles/select.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>BranchWise</title>
+</head>
+
+<body>
+    <div class="page">
+        <div class="content">
+            <div class="backbtn">
+                <button id="adminToHome">Back</button>
+            </div>
+            <div class="form branchForm">
+                <!-- sending get reuest for next page  -->
+                <form id="branchForm">
+                    <label for="branchname">Branch Name</label>
+                    <select name="branch" id="branch">
+                    </select><br><br>
+                    <label for="year">Year</label>
+                    <select name="year" id="year">
+                    </select>
+                    <br>
+                    <input type="submit" value="Submit" class="loginbtn">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/backtoHome.js"></script>
+    <script src="./scripts/classWisePage.js"></script>
+</body>
+
+</html>

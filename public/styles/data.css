@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box
+{
+    padding: 10px;
+}
+
+.header
+{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.form-row
+{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.col
+{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button
+{
+    width: 100%;
+    padding:0px 20px ;
+}
+
+
+
+
+.navbar
+{
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    flex: 3;
+    padding: 10px 0px;
+}
+
+.content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form
+{
+    background-color: rgba(192, 248, 248, 0.664);
+}
+form
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.form form label
+{
+    font-weight: 400;
+    font-size: 0.9em;
+    margin: 4px 0px;
+}
+
+input
+{
+    border: none;
+    background-color: rgb(179, 255, 128);
+    margin: 5px auto;
+    width: 150px;
+    padding: 5px 10px;
+    outline: none;
+
+}
+
+.loginbtn
+{
+    background-color: rgb(15, 98, 252);
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+
+
+select
+{
+    border: none;
+    padding: 4px 10px;
+    margin: 2px 0px;
+}
+
+option
+{
+    list-style: none;
+    outline: none;
+    background-color: rgba(155, 243, 84, 0.699);
+}
+.navbar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding: 5px 10px;
+    gap:4px;
+}
+.menubar
+{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    cursor: pointer;
+}
+.menu
+{
+    height: 2px;
+    background-color: aliceblue;
+    width: 20px;
+    border-radius: 20px;
+}
+.profile{
+    display: none;
+    flex-direction: column;
+    font-family: 'Ubuntu';
+    transition: 1s ease-in;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.profile .item
+{
+    background-color: red;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.error
+{
+    display: none;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: red;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 5px 0px;
+}

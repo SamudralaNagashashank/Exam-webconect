@@ -1,0 +1,43 @@
+a
+{
+    text-decoration: none;
+    font-family:'Exo 2', sans-serif;
+    font-size: 1.8em;
+    color: black;
+    
+}
+
+select
+{
+    outline: none;
+    border: none;
+    background-color: rgb(176, 255, 139);
+    padding: 2px;
+    font-family:'Exo 2', sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.option
+{
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: 170px;
+    background-color: rgba(255, 255, 255, 0.527);
+    cursor: pointer;
+    outline: none;
+}
+
+.options
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.option:hover{
+    background-color:aqua;
+}

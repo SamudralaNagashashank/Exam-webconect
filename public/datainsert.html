@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/data.css">
+    <title>Insert Data</title>
+</head>
+
+<body>
+    <div class="page">
+
+        <!-- navbar -->
+        <div class="navbar">
+            <div class="menubar" id="menubar">
+                <div class="menu"></div>
+                <div class="menu"></div>
+                <div class="menu"></div>
+            </div>
+            <div class="profile" id="profile">
+                <div class="item">Profile</div>
+                <div class="item " id="cleardb">ClearDB</div>
+                <div class="item">SignOut</div>
+            </div>
+        </div>
+        <div class="error" id="errMsg"></div>
+        <!-- navbar -->
+
+        <!-- content -->
+        <div class="content">
+            <div class="box">
+                <div class="header">
+                    <h2>SEATING ARRANGEMENT FILLING<h2></h2>
+                </div>
+                <div class="form">
+                    <form id="datainsertForm">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="dept">DEPARTMENT</label><br>
+                                <input type="text" readonly id="dept">
+                            </div>
+                            <div class="col">
+                                <label for="year">Year</label><br>
+                                <input type="text" readonly id="year">
+                            </div>
+                        </div>
+
+
+                        <!-- startend Number -->
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="start">Start Number</label><br>
+                                <input type="number" required id="startNumber">
+                            </div>
+                            <div class="col">
+                                <label for="end">End Number</label><br>
+                                <input type="number" required id="endNumber">
+                            </div>
+                        </div>
+                        <!-- startend Number -->
+
+
+                        <!-- select subject -->
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="sub">Select Subject</label><br>
+                                <select name="subject" id="subjectselect">
+                                    
+                                </select>
+                            </div>
+                        </div>
+                        <!-- select subject -->
+
+
+                        <!-- select classroom -->
+
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="classroom">Select Classroom</label><br>
+                                <select name="classroom" id="classroom">
+                                    <option>LH001</option>
+                                    <optioN>LH002</option>
+                                    <option>LH003</option>
+                                    <option>LH004</option>
+                                    <option>LH005</option>
+                                    <option>LH006</option>
+                                    <option>LH101</option>
+                                    <option>LH102</option>
+                                    <option>LH103</option>
+                                    <option>LH104</option>
+                                    <option>LH105</option>
+                                    <option>LH106</option>
+                                    <option>LH201</option>
+                                    <option>LH202</option>
+                                    <option>LH203</option>
+                                    <option>LH204</option>
+                                    <option>LH205</option>
+                                    <option>LH206</option>
+                                    <option>LH207</option>
+                                    <option>LH208</option>
+                                    <option>LH210</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- select classroom -->
+
+
+                        <!-- select date -->
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="date">Select Date</label><br>
+                                <input placeholder="DD/MM/YYYY" type="date" name="examdate"
+                                    id="examdate" required></input>
+                            </div>
+                        </div>
+                        <!-- select date -->
+
+                        <!-- timings -->
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="startTime">Start Time</label><br>
+                                <input placeholder="HH:MM" type="text" name="startTime" id="starttime" required>
+                            </div>
+                            <div class="col">
+                                <label for="endTime">End Time</label><br>
+                                <input placeholder="HH:MM" type="text" name="endTime" id="endtime" required>
+                            </div>
+                        </div>
+
+                        <!-- timings -->
+
+
+                    
+                        <!-- submits -->
+                        <div class="form-row">
+                            <div class="button">
+                                <input  type="submit" class="loginbtn" name="insert" value="Insert">
+                            </div>
+                            <!-- <div class="col">
+                                <input  type="submit" class="loginbtn" name="cancel" value="Cancel" id="cancelbtn">
+                            </div> -->
+                        </div>
+
+                        <!-- submits -->
+                    
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- content -->
+    </div>
+
+    <script src="./scripts/dataInsert.js"></script>
+    <script src="./scripts/adminmenu.js"></script>
+</body>
+
+</html>

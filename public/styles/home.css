@@ -1,0 +1,91 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.page
+{
+    background-color: rgb(204, 238, 253);
+    height: 100vh;
+}
+
+.navbar
+{
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    flex: 3;
+    padding: 10px 0px;
+}
+
+.title
+{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(252, 77, 86);
+}
+
+.links
+{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.links ul
+{
+    display: flex;
+    flex: 3;
+    list-style: none;
+}
+
+.links ul li
+{
+    flex: 1;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400px;
+    text-transform: uppercase;
+}
+
+a
+{
+    color: rgb(32, 252, 215);
+    text-decoration: none;
+}
+
+.active
+{
+    color:rgb(241, 212, 212);
+}
+
+.content
+{
+    background-color: rgb(231, 223, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.btn button
+{
+    border: none;
+    padding: 20px;
+    font-family:'Exo 2', sans-serif;
+    font-size: 1.3em;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: rgb(114, 106, 106) 0px 0px 20px -2px ;
+}
+
+button:hover
+{
+    background-color: red;
+    color:white;
+}

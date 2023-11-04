@@ -1,0 +1,140 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.page
+{
+    background-color: rgb(204, 238, 253);
+    height: 100vh;
+}
+
+
+.navbar
+{
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    flex: 3;
+    padding: 10px 0px;
+}
+
+.content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+
+.form
+{
+    background-color: rgb(255, 255, 255);
+}
+
+form
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.form form label
+{
+    font-weight: 400;
+    font-size: 0.9em;
+    margin: 6px 0px;
+}
+
+input
+{
+    border: none;
+    background-color: rgb(179, 255, 128);
+    margin: 10px auto;
+    width: 300px;
+    padding: 10px 20px;
+    outline: none;
+
+}
+
+.loginbtn
+{
+    background-color: rgb(15, 98, 252);
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 20px;
+    /* width: 100px; */
+}
+
+select
+{
+    border: none;
+    padding: 4px 10px;
+    margin: 2px 0px;
+    background-color: rgb(0, 183, 255);
+    outline: none;
+    border-radius: 20px;
+}
+
+option
+{
+    list-style: none;
+    outline: none;
+    background-color: rgba(155, 243, 84, 0.699);
+}
+
+.navbar
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    padding: 5px 10px;
+    gap:4px;
+}
+.menubar
+{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    cursor: pointer;
+}
+.menu
+{
+    height: 2px;
+    background-color: aliceblue;
+    width: 20px;
+    border-radius: 20px;
+}
+.profile{
+    display: none;
+    flex-direction: column;
+    font-family: 'Ubuntu';
+    transition: 1s ease-in;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.profile .item
+{
+    background-color: red;
+    margin: 2px;
+    padding: 3px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.error
+{
+    display: none;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: red;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 5px 0px;
+}

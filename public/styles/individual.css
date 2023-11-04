@@ -1,0 +1,35 @@
+.details
+{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rows
+{
+    padding: 20px;
+    width:90vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.row
+{
+    border: 2px solid black;
+    margin: 10px 0px;
+    padding: 10px 2px;
+    font-size: 1.2em;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.header
+{
+    width: 20vw;
+    color: blue;
+}
+.value
+{
+    background-color: aqua;
+    color: black;
+    width: 70vw;
+    padding: 2px 4px;
+}
